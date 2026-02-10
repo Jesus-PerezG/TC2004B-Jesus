@@ -4,12 +4,13 @@ Carrera: Ingeniería en Ciencia de Datos y Matemáticas
 Semestre: 4to
 
 ¿Por qué tomé este curso?
-[Tu respuesta]
+Lo tomé con el objetivo de sumergirme (finalmente) en la
+carrera y en sus aplicaciones en el mundo
 
 ¿Qué espero aprender?
 Espero aprender a obser patrones del mundo real y a
 partir de ello identificar las herramientas apropiadas
-para su solución.
+para su solución
 
 Herramientas que ya conozco:
 - Python, C++, R
