@@ -205,3 +205,9 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+Jesus@DESKTOP-9C4VFKD MINGW64 ~/Documents
+$ git pull origin main
+fatal: not a git repository (or any of the parent directories): .git
+((TC2004B_env) )
+
