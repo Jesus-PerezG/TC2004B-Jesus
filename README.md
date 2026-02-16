@@ -1,7 +1,7 @@
 # TC2004B - Análisis de Ciencia de Datos
 
-**Nombre:** Jesús Alejandro Pérez Granados   
-**Matrícula:** A01253993   
+**Nombre:** Jesús Alejandro Pérez Granados  
+**Matrícula:** A01253993  
 **Semestre:** Febrero-Junio 2026
 
 ## Descripción
@@ -19,11 +19,129 @@ TC2004B-Jesus/
 ## Contenido por Semana
 
 ### Semana 1
-- Práctica de Git/GitHub
-- Primer notebook con dataset Iris
-- Familiarización con herramientas
+
+* Práctica de Git/GitHub
+* Primer notebook con dataset Iris
+* Familiarización con herramientas
 
 ## Contacto
 
-- Email: [a01253993@tec.mx]
-- GitHub: [@Jesus-PerezG](https://github.com/Jesus-PerezG)
+* Email: \[a01253993@tec.mx]
+* GitHub: [@Jesus-PerezG](https://github.com/Jesus-PerezG)
+
+
+
+\## Setup Local
+
+
+
+\### Requisitos
+
+\- Python 3.8+
+
+\- Git
+
+
+
+\### Instalación
+
+
+
+\#### 1. Clonar repositorio
+
+```bash
+
+git clone https://github.com/TuUsuario/TC2004B-TuNombre.git
+
+cd TC2004B-TuNombre
+
+```
+
+
+
+\#### 2. Crear ambiente virtual
+
+
+
+\*\*Mac/Linux:\*\*
+
+```bash
+
+python3 -m venv tc2004b\_env
+
+source tc2004b\_env/bin/activate
+
+```
+
+
+
+\*\*Windows (PowerShell):\*\*
+
+```bash
+
+python -m venv tc2004b\_env
+
+tc2004b\_env\\Scripts\\Activate.ps1
+
+```
+
+
+
+\#### 3. Instalar dependencias
+
+```bash
+
+pip install -r requirements.txt
+
+```
+
+
+
+\#### 4. Ejecutar Jupyter
+
+```bash
+
+jupyter notebook
+
+```
+
+
+
+Navega a `notebooks/` y abre el .ipynb
+
+
+
+\### Desactivar ambiente
+
+```bash
+
+deactivate
+
+```
+
+
+
+\### Problemas Comunes
+
+
+
+\*\*Error: comando no encontrado\*\*
+
+\- Verifica que Python esté instalado: `python --version`
+
+
+
+\*\*Error de permisos (Windows)\*\*
+
+\- Ejecuta: `Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser`
+
+
+
+\*\*ModuleNotFoundError\*\*
+
+\- Verifica que el ambiente esté activo
+
+\- Reinstala dependencias: `pip install -r requirements.txt`
+
+
+
